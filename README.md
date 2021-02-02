@@ -21,12 +21,12 @@
 > 📅 2021.02.08 ~
 1. 매주 3문제씩
 2. 매주 일요일 `21:00` 코드 리뷰
-3. File Name : `문제번호_이름`  
-  ex) baekjoon/2573_sb.py  
-      programmers/42586_sb.py (programmers의 경우 url 마지막에 문제번호 적혀있습니다 :D)
-4. Commit Message : `[Solve] ✍ 사이트명_문제번호.문제명`  
-  ex) [Solve] ✍ baekjoon_2573.빙산  
-      [Solve] ✍ programmers_level2.기능개발
+3. **File Name** : `문제번호_이름`  
+  baekjoon/2573_sb.py  
+  programmers/42586_sb.py (programmers의 경우 url 마지막에 문제번호 적혀있습니다 :D)
+4. **Commit Message** : `[Solve] ✍ 사이트명_문제번호.문제명`  
+  [Solve] ✍ baekjoon_2573.빙산  
+  [Solve] ✍ programmers_level2.기능개발
 
 <br />
 
