@@ -47,4 +47,4 @@
 ## 👩‍💻 To Slove
 ||1|2|3|
 |---|---|---|---|
-|1주차|||||
+|1주차|[쇠막대기](https://www.acmicpc.net/problem/10799)||[스타트와 링크](https://www.acmicpc.net/problem/14889)|
