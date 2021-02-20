@@ -6,6 +6,7 @@ k = N // 2
 min_ = 1000000000
 visited = [0 for _ in range(N)]
 
+
 def find_combi(cur_num, last_num):
     global min_
     if cur_num == k:
