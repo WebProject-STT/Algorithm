@@ -48,3 +48,4 @@
 ||1|2|3|
 |---|---|---|---|
 |1주차|[쇠막대기](https://www.acmicpc.net/problem/10799)|[바이러스](https://www.acmicpc.net/problem/2606)|[스타트와 링크](https://www.acmicpc.net/problem/14889)|
+|2주차|||[근손실](https://www.acmicpc.net/problem/18429)|
