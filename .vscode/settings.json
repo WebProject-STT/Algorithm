@@ -1,7 +1,0 @@
-{
-    "files.associations": {
-        "*.js": "javascriptreact",
-        "algorithm": "cpp",
-        "vector": "cpp"
-    }
-}
