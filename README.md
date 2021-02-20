@@ -22,11 +22,11 @@
 1. 매주 3문제씩
 2. 매주 일요일 `21:00` 코드 리뷰
 3. **File Name** : `문제번호_이름`  
-  baekjoon/2573_sb.py  
-  programmers/42586_sb.py (programmers의 경우 url 마지막에 문제번호 적혀있습니다 :D)
+  baekjoon/2573/2573_sb.py  
+  programmers/42586/42586_sb.py (programmers의 경우 url 마지막에 적혀있는 문제 번호를 써주세요 :D)
 4. **Commit Message** : `[Solve] ✍ 사이트명_문제번호.문제명`  
   [Solve] ✍ baekjoon_2573.빙산  
-  [Solve] ✍ programmers_level2.기능개발
+  [Solve] ✍ programmers_level2.기능개발 (특별한 번호가 부여되지 않으므로 level을 적어주세요 :D)
 
 <br />
 
@@ -46,6 +46,6 @@
 
 ## 👩‍💻 To Slove
 ||1|2|3|
-|---|---|---|---|
+|:---:|:---:|:---:|:---:|
 |1주차|[쇠막대기](https://www.acmicpc.net/problem/10799)|[바이러스](https://www.acmicpc.net/problem/2606)|[스타트와 링크](https://www.acmicpc.net/problem/14889)|
-|2주차|||[근손실](https://www.acmicpc.net/problem/18429)|
+|2주차|[1, 2, 3 더하기 5](https://www.acmicpc.net/problem/15990)||[근손실](https://www.acmicpc.net/problem/18429)|
