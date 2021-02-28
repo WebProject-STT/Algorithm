@@ -48,5 +48,5 @@
 ||1|2|3|
 |:---:|:---:|:---:|:---:|
 |1주차|[쇠막대기](https://www.acmicpc.net/problem/10799)|[바이러스](https://www.acmicpc.net/problem/2606)|[스타트와 링크](https://www.acmicpc.net/problem/14889)|
-|2주차|[1, 2, 3 더하기 5](https://www.acmicpc.net/problem/15990)|[2*n 타일링](https://www.acmicpc.net/problem/11726)|[근손실](https://www.acmicpc.net/problem/18429)|
-|3주차||[도로와 신호등](https://www.acmicpc.net/problem/2980)||
+|2주차|[1, 2, 3 더하기 5](https://www.acmicpc.net/problem/15990)|[2\*n 타일링](https://www.acmicpc.net/problem/11726)|[근손실](https://www.acmicpc.net/problem/18429)|
+|3주차|[행복한 소수](https://www.acmicpc.net/problem/10434)|[도로와 신호등](https://www.acmicpc.net/problem/2980)||
