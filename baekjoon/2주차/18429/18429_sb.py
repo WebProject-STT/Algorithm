@@ -14,7 +14,7 @@ def DFS(L):
         return
     if L == n :
         cnt += 1
-    else : # 순열을 생성하는 부분 (아래 공식은 중복 순열식)
+    else : # 순열을 생성하는 부분
         for i in range(n):
             if check[i] == 0: # 사용 여부 확인
                 check[i] = 1
