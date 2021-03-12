@@ -33,7 +33,7 @@ def spread(copy_grid): # SPREAD는 BFS로
                 copy_grid[next_r][next_c] = 2
     count = 0
     for row in copy_grid:
-        count += row.count(0)
+        count += sum(row)
     return count
                 
 def find_combi(cur_num, last_num):
