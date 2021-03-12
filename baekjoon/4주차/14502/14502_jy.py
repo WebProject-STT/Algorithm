@@ -1,4 +1,11 @@
 # 연구소
+"""
+처음 시도 -> deep copy 시간 개개개객개개개 오래 걸림 절대 죽어도 사용 금지 차라리 for문쓰기!![4292]
+다음 -> copy 바꿨더니 2배나 줄음 이거 꼮꼬꼮꼬꼬 쓰세영[2908]
+다다음 -> bfs 그냥 dfs안에 넣어서 돌렸더니 차이 별로 없음 [2868]
+"""
+
+
 import sys
 from collections import deque
 import copy
@@ -33,13 +40,13 @@ def spread(copy_grid): # SPREAD는 BFS로
                 copy_grid[next_r][next_c] = 2
     count = 0
     for row in copy_grid:
-        count += sum(row)
+        count += row.count(0)
     return count
                 
 def find_combi(cur_num, last_num):
     global max_
     if cur_num == 2:
-        copy_grid = copy.deepcopy(grids)
+        copy_grid = [i[:] for i in grids]
         for i in range(num):
             if visited[i]:
                 a, b = temp_visited[i]//M, temp_visited[i]%M
