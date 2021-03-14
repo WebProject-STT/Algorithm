@@ -46,23 +46,23 @@ def solution(play_time, adv_time, logs):
     print(logss)
     # 첫번째 -> 재생 횟수 저장, 두번째 -> 초 단위 저장
     memories = [0 for _ in range(len_)]
+    cnt = 0
     for idx in range(len_):
         if not idx: # 첫번째 원소이면
-            memories[0] = 1
-            continue
+            count = 1
         if logss[idx] in end:
-            memories[idx] = memories[idx-1] - 1
-            continue
-        memories[idx] = memories[idx-1] + 1
+            count -= 1
+        if logss[idx] in start and idx: 
+            count += 1
+            memories[idx]
+        #memories[idx] = memories[idx-1] + 1
+        if idx != len_-1:
+            memories[idx] = ((logss[idx+1]-logss[idx])*count)
     print(memories)
-    # 두번째 누적 시간 계산
-    for idx in range(1,len_):
-        logss[idx] += (logss[idx-1]*memories[idx])
-    print(play_time,logss)
-    
-        
-
-    
+    # 두번째 -> 누적 시간 계산
+    for idx in range(1, len_):
+        memories[idx] += memories[idx-1]
+    print(memories)
     return
 
 test_play = ["02:03:55", "99:59:59", "50:00:00"]
