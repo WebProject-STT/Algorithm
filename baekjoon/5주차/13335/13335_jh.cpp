@@ -22,8 +22,7 @@ void addTruck()
 
 int main()
 {
-    // time은 1로 초기화 (밑에서 설명)
-    int N, W, L, time = 1;
+    int N, W, L, time = 0;
 
     cin >> N >> W >> L;
     inputTruck.resize(N);
@@ -35,13 +34,6 @@ int main()
     // 트럭이 모두 다리를 건너기 전까지 반복문 실행
     while (completedTruck.size() != inputTruck.size())
     {
-        // 트럭을 다리에 올림
-        if (curIndex < N && curCnt < W && sumWeight + inputTruck[curIndex] <= L)
-        {
-            addTruck();
-        }
-
-        time++;
         int size = truckBridge.size();
         // 시간이 흐름에 따라 다리 위의 트럭은 앞으로 전진
         for (int i = 0; i < size; i++)
@@ -62,6 +54,12 @@ int main()
                 truckBridge.push({curWeight, curTime});
             }
         }
+        // 트럭을 다리에 올림
+        if (curIndex < N && curCnt < W && sumWeight + inputTruck[curIndex] <= L)
+        {
+            addTruck();
+        }
+        time++;
     }
 
     cout << time;
