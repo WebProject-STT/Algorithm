@@ -11,14 +11,6 @@ vector<int> inputTruck;
 queue<int> completedTruck;
 // 다리 위에 올라간 트럭의 무게와 다리 위에 있었던 시간을 저장하는 큐
 queue<pair<int, int>> truckBridge;
-// 트럭을 다리 위로 올리는 함수
-void addTruck()
-{
-    truckBridge.push({inputTruck[curIndex], 1});
-    sumWeight += inputTruck[curIndex];
-    curIndex++;
-    curCnt++;
-}
 
 int main()
 {
@@ -57,7 +49,10 @@ int main()
         // 트럭을 다리에 올림
         if (curIndex < N && curCnt < W && sumWeight + inputTruck[curIndex] <= L)
         {
-            addTruck();
+            truckBridge.push({inputTruck[curIndex], 1});
+            sumWeight += inputTruck[curIndex];
+            curIndex++;
+            curCnt++;
         }
         time++;
     }
