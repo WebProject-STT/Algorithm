@@ -23,12 +23,9 @@ change_dir_R = (2, 3, 1, 0)
 
 for case in cases:
     len_ = len(case)
-    visited = [(0, 0)]
     cur_r, cur_c, cur_dir = 0, 0, 3 # 초기 방향 북(3)
-    max_r, max_c = 0, 0
-    min_r, min_c = 0, 0
+    max_r, min_r, max_c, min_c = 0, 0, 0, 0
     for d in case:
-        print("check : ",d, cur_dir, (cur_r, cur_c))
         if d=='F' or d == 'B':
             if d=='F':
                 cur_r += F_dir[cur_dir][0]
@@ -36,18 +33,34 @@ for case in cases:
             else:
                 cur_r += F_dir[B_dir[cur_dir]][0]
                 cur_c += F_dir[B_dir[cur_dir]][1]
-            if (cur_r, cur_c) not in visited: # 들린 적 없으면 추가
-                visited.append((cur_r, cur_c))
-                max_r = max(max_r, cur_r) # 현재 row위치와 양의 방향 row축 최대 길이 비교
-                min_r = min(min_r, cur_r)
-                max_c = max(max_c, cur_c) # 현재 col위치와 양의 방향 col축 최대 길이 비교
-                min_c = min(min_c, cur_c)
-            continue
+            max_r = max(max_r, cur_r) # 현재 row위치와 양의 방향 row축 최대 길이 비교
+            min_r = min(min_r, cur_r)
+            max_c = max(max_c, cur_c) # 현재 col위치와 양의 방향 col축 최대 길이 비교
+            min_c = min(min_c, cur_c)
         # 방향 변경
         if d == 'L':
             cur_dir = change_dir_L[cur_dir]
             continue
         if d == 'R':
             cur_dir = change_dir_R[cur_dir]
-            continue    
-    print(abs(max_r - min_r)*abs(max_c - min_c))
+            continue
+    temp1 = sorted(visited)
+    temp2 = sorted(visited, key= lambda x:x[1])
+    print((temp1[-1][0]-temp1[0][0])*abs(temp2[0][1] - temp2[-1][1]))
+
+
+"""
+for d in case:
+    print("check : ",d, cur_dir, (cur_r, cur_c))
+    if d=='F' or d == 'B':
+        if d=='F':
+            cur_r += F_dir[cur_dir][0]
+            cur_c += F_dir[cur_dir][1]
+        else:
+            cur_r += F_dir[B_dir[cur_dir]][0]
+            cur_c += F_dir[B_dir[cur_dir]][1]
+        max_r = max(max_r, cur_r) # 현재 row위치와 양의 방향 row축 최대 길이 비교
+        min_r = min(min_r, cur_r)
+        max_c = max(max_c, cur_c) # 현재 col위치와 양의 방향 col축 최대 길이 비교
+        min_c = min(min_c, cur_c)
+"""
