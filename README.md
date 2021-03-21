@@ -69,4 +69,4 @@
 |3주차|[행복한 소수](https://www.acmicpc.net/problem/10434)|[돌다리](https://www.acmicpc.net/problem/12761)|[행렬](https://www.acmicpc.net/problem/1080)|
 |4주차|[아기상어2](https://www.acmicpc.net/problem/17086)|[ABCDE](https://www.acmicpc.net/problem/13023)|[광고 삽입](https://programmers.co.kr/learn/courses/30/lessons/72414)|[촌수 삽입](https://www.acmicpc.net/problem/2644)|[Three Dots](https://www.acmicpc.net/problem/13423)|[연구소](https://www.acmicpc.net/problem/14502)|
 |5주차|[트럭](https://www.acmicpc.net/problem/13335)|[파이프옮기기1](https://www.acmicpc.net/problem/17070)|[거북이](https://www.acmicpc.net/problem/8911)|[징검다리 건너기](https://programmers.co.kr/learn/courses/30/lessons/64062)|[스티커](https://www.acmicpc.net/problem/9465)|[미세먼지 안녕!](https://www.acmicpc.net/problem/17144)|
-|6주차|||[감시피하기](https://www.acmicpc.net/problem/18428)||||
+|6주차|||[감시피하기](https://www.acmicpc.net/problem/18428)|[경주로건설](https://programmers.co.kr/learn/courses/30/lessons/67259)|||
