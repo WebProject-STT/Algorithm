@@ -70,4 +70,4 @@
 |4주차|[아기상어2](https://www.acmicpc.net/problem/17086)|[ABCDE](https://www.acmicpc.net/problem/13023)|[광고 삽입](https://programmers.co.kr/learn/courses/30/lessons/72414)|[촌수 삽입](https://www.acmicpc.net/problem/2644)|[Three Dots](https://www.acmicpc.net/problem/13423)|[연구소](https://www.acmicpc.net/problem/14502)|
 |5주차|[트럭](https://www.acmicpc.net/problem/13335)|[파이프옮기기1](https://www.acmicpc.net/problem/17070)|[거북이](https://www.acmicpc.net/problem/8911)|[징검다리 건너기](https://programmers.co.kr/learn/courses/30/lessons/64062)|[스티커](https://www.acmicpc.net/problem/9465)|[미세먼지 안녕!](https://www.acmicpc.net/problem/17144)|
 |6주차|[이진검색트리](https://www.acmicpc.net/problem/5639)|[택배배송](https://www.acmicpc.net/problem/5972)|[감시피하기](https://www.acmicpc.net/problem/18428)|[경주로건설](https://programmers.co.kr/learn/courses/30/lessons/67259)|[주식](https://www.acmicpc.net/problem/11501)|[뱀](https://www.acmicpc.net/problem/3190)|
-|||[음식물피하기](https://www.acmicpc.net/problem/1743)|[카드짝맞추기](https://programmers.co.kr/learn/courses/30/lessons/72415)|||
+|7주차|||[음식물피하기](https://www.acmicpc.net/problem/1743)|[카드짝맞추기](https://programmers.co.kr/learn/courses/30/lessons/72415)|||
