@@ -20,9 +20,9 @@
 ## ✅ How To
 > 📅 2021.03.08 ~
 1. 매주 6문제
-    - 수빈 : 실버1, 골드5
-    - 주영 : 실버2, 카카오기출
-    - 주희 : 실버2, 삼성SW기출
+    - 수빈 : 골드5, 골드4
+    - 주영 : DP or Greedy, 카카오기출 (level3)
+    - 주희 : 삼성SW기출 2문제
 2. 매주 일요일 `21:00` 코드 리뷰
 3. **File Name** : `문제번호_이름`  
     - 백준 : 2573_sb.py  
@@ -71,4 +71,4 @@
 |5주차|[트럭](https://www.acmicpc.net/problem/13335)|[파이프옮기기1](https://www.acmicpc.net/problem/17070)|[거북이](https://www.acmicpc.net/problem/8911)|[징검다리 건너기](https://programmers.co.kr/learn/courses/30/lessons/64062)|[스티커](https://www.acmicpc.net/problem/9465)|[미세먼지 안녕!](https://www.acmicpc.net/problem/17144)|
 |6주차|[이진검색트리](https://www.acmicpc.net/problem/5639)|[택배배송](https://www.acmicpc.net/problem/5972)|[감시피하기](https://www.acmicpc.net/problem/18428)|[경주로건설](https://programmers.co.kr/learn/courses/30/lessons/67259)|[주식](https://www.acmicpc.net/problem/11501)|[뱀](https://www.acmicpc.net/problem/3190)|
 |7주차|[연산자 끼워넣기](https://www.acmicpc.net/problem/14888)|[이모티콘](https://www.acmicpc.net/problem/14226)|[음식물피하기](https://www.acmicpc.net/problem/1743)|[카드짝맞추기](https://programmers.co.kr/learn/courses/30/lessons/72415)|[마라톤1](https://www.acmicpc.net/problem/10655)|[인구 이동](https://www.acmicpc.net/problem/16234)|
-|8주차|||[포도주 시식](https://www.acmicpc.net/problem/2156)|[카드짝맞추기](https://programmers.co.kr/learn/courses/30/lessons/72415)|||
+|8주차|[게리멘더링](https://www.acmicpc.net/problem/17471)|[미친아두이노](https://www.acmicpc.net/problem/8972)|[포도주 시식](https://www.acmicpc.net/problem/2156)|[카드짝맞추기](https://programmers.co.kr/learn/courses/30/lessons/72415)|||
