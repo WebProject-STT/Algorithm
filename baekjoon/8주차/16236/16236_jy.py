@@ -30,7 +30,7 @@ def find_min_fish(cur_r, cur_c, shark_w):
     min_ = sys.maxsize
     while queue:
         r, c, distance = queue.popleft()
-        if distance > min_: break
+        if distance > min_: break # 줄임
 
         for i in range(4):
             next_r, next_c = r+dir_[i][0], c+dir_[i][1]
@@ -42,9 +42,9 @@ def find_min_fish(cur_r, cur_c, shark_w):
                     min_ = distance+1
                     can_eat.append((next_r, next_c, distance+1))
                 
-    print("can_eat 1 ; ",can_eat)
+    #print("can_eat 1 ; ",can_eat)
     can_eat = sorted(set(can_eat), key=lambda x: (x[0], x[1])) # -인 이유 -> 가장 위쪽 -> 가장 왼쪽
-    print("can_eat 2 ; ",can_eat)
+    #print("can_eat 2 ; ",can_eat)
     if can_eat:
         return can_eat[0][0], can_eat[0][1], can_eat[0][2]
     else: return False
@@ -71,3 +71,30 @@ if __name__ == "__main__":
             break
     if not fish_nums: print(total_dis)
 
+"""
+# 이거 쓸데 없는 곳까지 들림 -> 줄여야함
+# 근처 물고기들 중 가장 가까운 물고기 찾기
+def find_min_fish(cur_r, cur_c, shark_w):
+    visited = [[0 for _ in range(N)] for _ in range(N)]
+    visited[cur_r][cur_c] = 1
+    queue = deque()
+    queue.append((cur_r, cur_c, 0)) # 현재 위치, 거리
+    can_eat = []
+    while queue:
+        r, c, distance = queue.popleft()
+
+        for i in range(4):
+            next_r, next_c = r+dir_[i][0], c+dir_[i][1]
+            if 0 <= next_r < N and 0 <= next_c < N: # 아기 상어 갈 수 있는 곳
+                if not visited[next_r][next_c] and grids[next_r][next_c] <= shark_w: # 아기 상어가 지나갈 수 있는 곳이면 
+                    visited[next_r][next_c] = 1
+                    queue.append((next_r, next_c, distance+1))
+                if 0 < grids[next_r][next_c] < shark_w and (next_r, next_c, distance+1) not in can_eat: # 아기 상어가 먹을 수 있는 물고기이면
+                    can_eat.append((next_r, next_c, distance+1))
+    
+    can_eat = sorted(can_eat, key=lambda x: (x[2], x[0], x[1])) # -인 이유 -> 가장 위쪽 -> 가장 왼쪽
+    #print("can_eat ; ",can_eat)
+    if can_eat:
+        return can_eat[0][0], can_eat[0][1], can_eat[0][2]
+    else: return False
+"""
