@@ -6,7 +6,7 @@ using namespace std;
 #define MAX 100
 
 int R, C, inputJongsuMoveSize, playCnt = 0;
-// 종수 아두이노의 위치와 각 좌표별 미친 아두이노 갯수 저장
+// 종수 아두이노의 위치와 각 좌표별 미친 아두이노 개수 저장
 int jongsuArduinoX, jongsuArduinoY, crazyArduinoCnt[MAX][MAX];
 // 미친 아두이노 위치 저장
 queue<pair<int, int>> crazyArduino;
@@ -73,7 +73,7 @@ bool crazyArduinoMove()
         {
             // 미친 아두이노 이동
             MAP[nextX][nextY] = 'R';
-            // 이동하려는 위치의 미친 아두이노 갯수 1 증가
+            // 이동하려는 위치의 미친 아두이노 개수 1 증가
             crazyArduinoCnt[nextX][nextY]++;
         }
         // 현재 위치의 미친 아두이노가 1개 미만이라면
@@ -82,7 +82,7 @@ bool crazyArduinoMove()
             // 현재 위치 빈칸으로 변경
             MAP[currentX][currentY] = '.';
         }
-        // 현재 위치의 미친 아두이노 갯수 1 감소
+        // 현재 위치의 미친 아두이노 개수 1 감소
         crazyArduinoCnt[currentX][currentY]--;
     }
     return true;
@@ -105,7 +105,7 @@ void explosion()
             {
                 // 현재 위치 빈칸으로 만듬
                 MAP[i][j] = '.';
-                // 현재 위치의 미친 아두이노 갯수 0으로 변경
+                // 현재 위치의 미친 아두이노 개수 0으로 변경
                 crazyArduinoCnt[i][j] = 0;
             }
         }
@@ -126,7 +126,7 @@ int main()
             {
                 // 미친 아두이노 위치 추가
                 crazyArduino.push({i, j});
-                // 현재 위치의 미친 아두이노 갯수 1 증가
+                // 현재 위치의 미친 아두이노 개수 1 증가
                 crazyArduinoCnt[i][j]++;
             }
             // 현재 위치에 종수 아두이노가 있다면
