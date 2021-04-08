@@ -1,1 +1,6 @@
 /vs_code/
+
+# intelliJ
+.idea
+Algorithm.iml
+out
