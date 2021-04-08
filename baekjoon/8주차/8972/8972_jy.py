@@ -25,7 +25,7 @@ for i in range(len(directions)):
     cur_r, cur_c = cur_r+directions[i][0], cur_c+directions[i][1]
     # 2. 종수 아두이노=미친 아두이노 겜 끝
     if [cur_r, cur_c] in crazy_robots:
-        print("kraj "+i+1)
+        print(f"kraj {i + 1}")
         sys.exit(0)
     # 3 ~ 5.
     new_robots = defaultdict(list)
@@ -42,7 +42,7 @@ for i in range(len(directions)):
                     min_, min_r, min_c = dis, next_robot_r, next_robot_c
         # 4. 종수 아두이노=미친 아두이노 겜 끝
         if cur_r == min_r and cur_c == min_c:
-            print("kraj " +i+1)
+            print(f"kraj {i + 1}")
             sys.exit(0)
         new_robots[str(min_r)+' '+str(min_c)].append(r_i)
 
