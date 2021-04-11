@@ -24,7 +24,7 @@ def dfs(check_combi):
                 d_visited[n] = True
                 stack.append(n)
     
-    for i in range(1, N):
+    for i in range(1, N+1):
         if i in check_combi and not d_visited[i]: return False
     return True
 
