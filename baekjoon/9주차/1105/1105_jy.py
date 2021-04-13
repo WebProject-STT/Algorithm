@@ -7,7 +7,9 @@ if len_L != len_R:
 else:
     count = 0
     for i in range(len_L):
-        if L[i] == 8 and L[i] == R[i]: count += 1
+        if L[i] == R[i]: 
+            if L[i] == '8':
+                count += 1
         else:
             break
     print(count)
