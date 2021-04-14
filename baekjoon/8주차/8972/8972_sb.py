@@ -6,7 +6,7 @@ def solution(R, C, crazy, r, c, command, d):
         # 1. 종수의 아두이노 위치 이동
         r, c = r + d[command[i]][0], c + d[command[i]][1]
         # 2. 종수의 아두이노 위치가 미친 아두이노의 위치인 경우
-        if (r, c) in crazy :
+        if [r, c] in crazy :
             print(f"kraj {i + 1}")
             exit(0)
         # 3. 미친 아두이노 이동
