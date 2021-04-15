@@ -27,15 +27,16 @@ def solution(R, C, crazy, r, c, command, d):
             # 8방향 중 최소 위치 정보 업데이트
             crazy[n][0], crazy[n][1] = min_r, min_c
         # 5. 같은 위치에 존재하는 미친 아두이노 제거
-        crazy.sort()
-        not_boom = [crazy[0]]
-        for k in range(1, len(crazy)) :
-            if crazy[k] == crazy[k-1] :
-                if len(not_boom) > 0 and crazy[k] == not_boom[-1] :
-                    not_boom.pop()
-            else :
-                not_boom.append(crazy[k])
-        crazy = not_boom # 미친 아두이노의 좌표 업데이트
+        if len(crazy) > 0 :
+            crazy.sort()
+            not_boom = [crazy[0]]
+            for k in range(1, len(crazy)) :
+                if crazy[k] == crazy[k-1] :
+                    if len(not_boom) > 0 and crazy[k] == not_boom[-1] :
+                        not_boom.pop()
+                else :
+                    not_boom.append(crazy[k])
+            crazy = not_boom # 미친 아두이노의 좌표 업데이트
     else : # for문 정상 종료
         board = [['.']*C for _ in range(R)]
         board[r][c] = 'I' # 종수의 아두이노 위치 표시
