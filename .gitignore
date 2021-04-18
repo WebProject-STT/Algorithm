@@ -4,4 +4,6 @@
 .idea
 Algorithm.iml
 out
+
+# vscode
 .vscode
