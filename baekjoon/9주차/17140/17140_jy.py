@@ -13,7 +13,7 @@ def caculate(matrix, len_cur):
         # 2. sort
         temp = sorted(temp, key=lambda x:(x[1], x[0]))
         len_line = len(temp)
-        if len_line*2 > 100: len_line = 100
+        if len_line > 50: len_line = 50
         else: len_cur = max(len_cur, len_line*2)
         for i in range(len_line):
             matrix[idx].append(temp[i][0])
