@@ -26,7 +26,7 @@
 2. 매주 일요일 `21:00` 코드 리뷰
 3. **File Name** : `문제번호_이름`  
     - 백준 : 2573_sb.py  
-    - 프로그래머스 : 42586_sb.py (programmers의 경우 url 마지막에 적혀있는 문제 번호를 써주세요 :D)
+    - 프로그래머스 : 문제명_sb.py
 4. **Commit Message** : `[Solve] ✍ 사이트명_문제번호.문제명`  
   [Solve] ✍ baekjoon_2573.빙산  
   [Solve] ✍ programmers_level2.기능개발 (특별한 번호가 부여되지 않으므로 level을 적어주세요 :D)
@@ -73,3 +73,4 @@
 |7주차|[연산자 끼워넣기](https://www.acmicpc.net/problem/14888)|[이모티콘](https://www.acmicpc.net/problem/14226)|[음식물피하기](https://www.acmicpc.net/problem/1743)|[카드짝맞추기](https://programmers.co.kr/learn/courses/30/lessons/72415)|[마라톤1](https://www.acmicpc.net/problem/10655)|[인구 이동](https://www.acmicpc.net/problem/16234)|
 |8주차|[게리멘더링](https://www.acmicpc.net/problem/17471)|[미친아두이노](https://www.acmicpc.net/problem/8972)|[포도주 시식](https://www.acmicpc.net/problem/2156)|[카드짝맞추기](https://programmers.co.kr/learn/courses/30/lessons/72415)|[아기상어](https://www.acmicpc.net/problem/16236)|[2048 (Easy)](https://www.acmicpc.net/problem/12100)|
 |9주차|[숨바꼭질3](https://www.acmicpc.net/problem/13549)|[후위표기식](https://www.acmicpc.net/problem/1918)|[팔](https://www.acmicpc.net/problem/1105)|[메뉴 리뉴얼](https://programmers.co.kr/learn/courses/30/lessons/72411)|[경사로](https://www.acmicpc.net/problem/14890)|[이차원 배열과 연산](https://www.acmicpc.net/problem/17140)|
+|10주차|[치킨배달](https://www.acmicpc.net/problem/15686)|[배열돌리기4](https://www.acmicpc.net/problem/17406)|||||
