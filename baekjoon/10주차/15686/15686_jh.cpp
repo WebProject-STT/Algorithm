@@ -11,7 +11,7 @@ int houseCnt, chickenCnt;
 // 집과 치킨집 위치 저장
 vector<pair<int, int>> house, chicken;
 // 조합 구현 위한 방문 표시 벡터
-vector<int> visited;
+vector<bool> visited;
 // 치킨 거리 최소합 구하는 함수
 int getMinDistance()
 {
