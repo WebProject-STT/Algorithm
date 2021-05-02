@@ -1,5 +1,5 @@
 # 거짓말
-import sys
+
 if __name__ == "__main__":
     N, M = map(int, input().split())
     T = set(input().split()[1:])# 진실을 아는 번호
