@@ -1,5 +1,4 @@
 # 저울
-
 def dfs(start, li, visited):
     visited[start] = 1
     for node in li[start]:
