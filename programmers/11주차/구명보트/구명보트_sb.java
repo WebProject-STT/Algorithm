@@ -1,6 +1,6 @@
 import java.util.*;
 
-class Solution_0501 {
+class P42885 {
     public int solution(int[] people, int limit) {
         int answer = 0;
         int start = 0, end = people.length - 1;
