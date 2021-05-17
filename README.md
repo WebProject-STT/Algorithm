@@ -23,8 +23,8 @@
 > 📅 2021.03.08 ~
 1. 매주 6문제
     - 수빈 : 골드 3-5 2문제
-    - 주영 : DP or Greedy, 카카오기출 (level2)
-    - 주희 : 골드 3-5 2문제
+    - 주영 : 카카오기출 (level2-3)
+    - 주희 : DP 실버 1-2, 골드 3-5
 2. 매주 일요일 `21:00` 코드 리뷰
 3. **File Name** : `문제번호_이름`  
     - 백준 : 2573_sb.py  
@@ -78,4 +78,4 @@
 |10주차|[치킨배달](https://www.acmicpc.net/problem/15686)|[배열돌리기4](https://www.acmicpc.net/problem/17406)|[벽장문의 이동](https://www.acmicpc.net/problem/2666)|[방금그곡](https://programmers.co.kr/learn/courses/30/lessons/17683)|[드래곤 커브](https://www.acmicpc.net/problem/15685)|[어른 상어](https://www.acmicpc.net/problem/19237)|
 |11주차|[AC](https://www.acmicpc.net/problem/5430)|[전화번호목록](https://www.acmicpc.net/problem/5052)|[후보키](https://programmers.co.kr/learn/courses/30/lessons/42890)|[구명보트](https://programmers.co.kr/learn/courses/30/lessons/42885)|[거짓말](https://www.acmicpc.net/problem/1043)|[저울](https://www.acmicpc.net/problem/10159)|
 |12-13주차|[평범한배낭](https://www.acmicpc.net/problem/12865)|[부분문자열](https://www.acmicpc.net/problem/16916)|[파일명 정렬](https://programmers.co.kr/learn/courses/30/lessons/17686)|[단어변환](https://programmers.co.kr/learn/courses/30/lessons/43163)|[여행 가자](https://www.acmicpc.net/problem/1976)|[함께 블록 쌓기](https://www.acmicpc.net/problem/18427)|
-|14주차|||[압축](https://programmers.co.kr/learn/courses/30/lessons/17684)|[정수삼각형](https://programmers.co.kr/learn/courses/30/lessons/43105)|||
+|14주차|||[압축](https://programmers.co.kr/learn/courses/30/lessons/17684)|[정수삼각형](https://programmers.co.kr/learn/courses/30/lessons/43105)|[점프](https://www.acmicpc.net/problem/1890)|[성곽](https://www.acmicpc.net/problem/2234)|
