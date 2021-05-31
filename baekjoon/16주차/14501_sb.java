@@ -10,7 +10,7 @@ import java.lang.*;
 * 출력 : 얻을 수 있는 최대 이익
 */
 
-public class B14501 {
+class B14501 {
     public static void main(String[] args) throws Exception {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         StringTokenizer st;
