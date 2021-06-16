@@ -6,7 +6,7 @@ def solution(n, times):
 
     while left <= right:
         mid = (left+right)//2
-
+ 
         count = 0
         for t in times:
             count += (mid//t) # 몫이 더 큰 수가 최적의 시간
