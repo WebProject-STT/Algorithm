@@ -24,7 +24,7 @@
 ## ✅ How To
 > 📅 2021.03.08 ~
 1. 매주 6문제
-    - 수빈 : DP 실버 2-4, 골드 4-5
+    - 수빈 : 골드3 - 실버3
     - 주영 : 카카오기출 (level2-3)
     - 주희 : DP 실버 2-4, 골드 3-5
 2. 매주 일요일 `21:00` 코드 리뷰
@@ -83,5 +83,5 @@
 |14주차|[동물원](https://www.acmicpc.net/problem/1309)|[택배](https://www.acmicpc.net/problem/8980)|[압축](https://programmers.co.kr/learn/courses/30/lessons/17684)|[정수삼각형](https://programmers.co.kr/learn/courses/30/lessons/43105)|[점프](https://www.acmicpc.net/problem/1890)|[성곽](https://www.acmicpc.net/problem/2234)|
 |15주차|[자원캐기](https://www.acmicpc.net/problem/14430)|[리모컨](https://www.acmicpc.net/problem/1107)|[행렬 테두리](https://programmers.co.kr/learn/courses/30/lessons/77485)|[베스트앨범](https://programmers.co.kr/learn/courses/30/lessons/42579)|[1로만들기](https://www.acmicpc.net/problem/1463)|[레이저통신](https://www.acmicpc.net/problem/6087)|
 |16-17주차|[퇴사](https://www.acmicpc.net/problem/14501)|[A와B](https://www.acmicpc.net/problem/12904)|[카카오프렌즈 컬러링북](https://programmers.co.kr/learn/courses/30/lessons/1829)|[섬 연결하기](https://programmers.co.kr/learn/courses/30/lessons/42861)|[01타일](https://www.acmicpc.net/problem/1904)|[카드 정렬하기](https://www.acmicpc.net/problem/1715)|
-|18주차|[연속합](https://www.acmicpc.net/problem/1912)|[오영식의 보물](https://www.acmicpc.net/problem/1631)|[[3차] n진수 게임](https://programmers.co.kr/learn/courses/30/lessons/17687)|[입국심사](https://programmers.co.kr/learn/courses/30/lessons/43238)|[가장 긴 증가하는 부분 수열](https://www.acmicpc.net/problem/11053)|[해킹](https://www.acmicpc.net/problem/10282)|
+|18주차|[연속합](https://www.acmicpc.net/problem/1912)|[암호 만들기](https://www.acmicpc.net/problem/1759)|[[3차] n진수 게임](https://programmers.co.kr/learn/courses/30/lessons/17687)|[입국심사](https://programmers.co.kr/learn/courses/30/lessons/43238)|[가장 긴 증가하는 부분 수열](https://www.acmicpc.net/problem/11053)|[해킹](https://www.acmicpc.net/problem/10282)|
 
