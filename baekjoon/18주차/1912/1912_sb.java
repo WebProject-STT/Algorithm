@@ -10,7 +10,7 @@ import java.util.*;
 * 입력 : 정수의 수 n, n개의 정수
 * 출력 : 연속된 숫자의 합 중 가장 큰 합
 */
-public class B1912 {
+class B1912 {
     public static void main(String[] args) throws Exception {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         int n = Integer.parseInt(br.readLine());

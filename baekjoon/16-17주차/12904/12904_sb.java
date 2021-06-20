@@ -11,7 +11,7 @@ import java.util.*;
 * 입력 : 문자열 S와 T
 * 출력 : S를 T로 바꿀 수 있으면 1, 없으면 0
 */
-public class B12904 {
+class B12904 {
     public static String strReverse(ArrayDeque<Character> deque, boolean isReverse) {
         
         String temp = "";

@@ -4,7 +4,7 @@ import java.util.*;
 * 입력 : 자연수 N
 * 출력 : 만들 수 있는 길이가 N인 모든 2진 수열 개수를 15746으로 나눈 나머지
 */
-public class B1904 {
+class B1904 {
     public static void main(String[] args) throws Exception {
         Scanner sc = new Scanner(System.in);
         int N = sc.nextInt();

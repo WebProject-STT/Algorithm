@@ -7,7 +7,7 @@ import java.util.*;
 * 입력 : 카드 묶음 수 N, N개의 카드 묶음 각각의 카드 수
 * 출력 : 최소 비교 횟수
 */
-public class B1715 {
+class B1715 {
     public static void main(String[] args) throws Exception {
         
         Scanner sc = new Scanner(System.in);
