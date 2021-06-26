@@ -22,7 +22,20 @@
 <br />
 
 ## ✅ How To
-> 📅 2021.03.08 ~
+> 📅 2021.02.15 ~
+1. 매주 3문제 (각자 원하는 문제 1개씩)
+2. 매주 월요일 `21:00` 코드 리뷰
+3. **File Name** : `문제번호_이름`  
+    - 백준 : 2573_sb.py  
+    - 프로그래머스 : 문제명_sb.py
+4. **Commit Message** : `[Solve] ✍ 사이트명_문제번호.문제명`  
+  [Solve] ✍ baekjoon_2573.빙산  
+  [Solve] ✍ programmers_level2.기능개발
+
+
+<details><summary>Prev How To</summary>
+  
+> 📅 2021.03.08 ~ 2021.06.26
 1. 매주 6문제
     - 수빈 : 골드3 - 실버3
     - 주영 : 카카오기출 (level2-3)
@@ -35,9 +48,7 @@
   [Solve] ✍ baekjoon_2573.빙산  
   [Solve] ✍ programmers_level2.기능개발 (특별한 번호가 부여되지 않으므로 level을 적어주세요 :D)
 
-<details><summary>Prev How To</summary>
-
-> 📅 2021.02.15 ~
+> 📅 2021.02.15 ~ 2021.03.07
 1. 매주 3문제씩
 2. 매주 일요일 `21:00` 코드 리뷰
 3. **File Name** : `문제번호_이름`  
@@ -84,4 +95,3 @@
 |15주차|[자원캐기](https://www.acmicpc.net/problem/14430)|[리모컨](https://www.acmicpc.net/problem/1107)|[행렬 테두리](https://programmers.co.kr/learn/courses/30/lessons/77485)|[베스트앨범](https://programmers.co.kr/learn/courses/30/lessons/42579)|[1로만들기](https://www.acmicpc.net/problem/1463)|[레이저통신](https://www.acmicpc.net/problem/6087)|
 |16-17주차|[퇴사](https://www.acmicpc.net/problem/14501)|[A와B](https://www.acmicpc.net/problem/12904)|[카카오프렌즈 컬러링북](https://programmers.co.kr/learn/courses/30/lessons/1829)|[섬 연결하기](https://programmers.co.kr/learn/courses/30/lessons/42861)|[01타일](https://www.acmicpc.net/problem/1904)|[카드 정렬하기](https://www.acmicpc.net/problem/1715)|
 |18-19주차|[연속합](https://www.acmicpc.net/problem/1912)|[암호 만들기](https://www.acmicpc.net/problem/1759)|[[3차] n진수 게임](https://programmers.co.kr/learn/courses/30/lessons/17687)|[입국심사](https://programmers.co.kr/learn/courses/30/lessons/43238)|[가장 긴 증가하는 부분 수열](https://www.acmicpc.net/problem/11053)|[해킹](https://www.acmicpc.net/problem/10282)|
-
