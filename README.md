@@ -73,7 +73,9 @@
 <a href = "https://github.com/maywngml">
   <img src="https://avatars.githubusercontent.com/u/50205928?s=400&v=4" alt="ju-hee" width="80" style="max-width:100%" />
 </a>
-
+<a href = "https://github.com/sejin-k">
+  <img src="https://avatars.githubusercontent.com/u/48510236?v=4" alt="sejin" width="80" style="max-width:100%" />
+</a>
 <br />
 
 ## 👩‍💻 To Slove
