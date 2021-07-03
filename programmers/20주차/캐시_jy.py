@@ -1,5 +1,7 @@
 # 캐시
 
+# LCS = 가장 오래 안쓴 페이지 교체()
+
 def solution(cacheSize, cities):
     total = 0
     if cacheSize == 0:
