@@ -1,20 +1,20 @@
 # 데스노트
+from sys import setrecursionlimit
+setrecursionlimit(10**4+1)
 
-def dfs(cur_idx, cur_score): # 현재 줄에서, 지금 까지 쓴 이름 길이 + 띄어쓰기
-    if cur_idx >= n: # 이름 다 돌았음
-        return 0
+dp = [[-1 for _ in range(1001)] for _ in range(1001)]
+
+def dp_f(idx, col): # 현재 줄에서, 지금 까지 쓴 이름 길이 + 띄어쓰기
     
-    # 내가 갈 수 있는 경로 : 
+    if idx == n: return 0
+    if dp[idx][col] > 0 : return dp[idx][col]
+
+    dp[idx][col] = (m-col)**2 + dp_f(idx+1, names[idx])
+
+    if col+1+names[idx] <= m:
+        dp[idx][col] = min(dp[idx][col], dp_f(idx+1, col+1+names[idx]))
     
-    # (1) 포함 안시킴 -> 다음 줄로 넘어감
-        # 다음 줄에 길이 names[cur_idx] + 1(1은띄어쓰기)
-    min_ = (m-cur_score+1)**2 + dfs(cur_idx+1, names[cur_idx] + 1) 
-
-    # (2) 현재 단어를 현재 줄에 포함
-    if cur_score + names[cur_idx] <= m:
-        min_ = min(min_, dfs(cur_idx+1, cur_score + names[cur_idx] + 1))
-
-    return min_
+    return dp[idx][col]
 
 if __name__ == "__main__":
     n, m = map(int, input().split())
@@ -22,4 +22,8 @@ if __name__ == "__main__":
     for _ in range(n):
         names.append(int(input()))
 
-    print(dfs(0, 0))
+    dp = [[0 for _ in range(m+1)] for _ in range(n)]
+
+    print(dp_f(1, names[0]))
+
+    print(dp)
