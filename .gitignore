@@ -2,8 +2,8 @@
 
 # intelliJ
 .idea
-Algorithm.iml
 out
+.iml
 
 # vscode
 .vscode
