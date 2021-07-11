@@ -3,7 +3,7 @@
 # intelliJ
 .idea
 out
-.iml
+*.iml
 
 # vscode
 .vscode
