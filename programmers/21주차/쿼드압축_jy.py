@@ -3,17 +3,15 @@ answer = [0, 0]
 def check(arr, row_start, row_end, col_start, col_end):
     global answer
     temp = arr[row_start][col_start]
-    chek_tf = True
+
     for i in range(row_start, row_end):
         for j in range(col_start, col_end):
+            # 모든 같은 숫자가 아니면 => false => split 후보
             if temp != arr[i][j]:
-                chek_tf = False
-                break
-        if not chek_tf: break
-    if chek_tf:
-        answer[temp] += 1
-        return True
-    return False
+                return False
+                
+    answer[temp] += 1
+    return True
 
 def four_split(arr, row_start, row_end, col_start, col_end):
     # 만약, 4등분한 결과가 1이면 그냥 개수 세고 return
@@ -38,7 +36,6 @@ def four_split(arr, row_start, row_end, col_start, col_end):
         # 네 번째
         if not check(arr, row_half, row_end, col_half, col_end):
             four_split(arr, row_half, row_end, col_half, col_end)
-    return
 
 def solution(arr):
     global answer
@@ -47,5 +44,9 @@ def solution(arr):
         answer[arr[0]] += 1
         return answer
     
-    four_split(arr, 0, len_arr, 0, len_arr)
+    if not check(arr, 0, len_arr, 0, len_arr):
+        four_split(arr, 0, len_arr, 0, len_arr)
+        
     return answer
+
+print(solution([[0, 0], [0, 0]]))
