@@ -99,4 +99,4 @@
 |18-19주차|[연속합](https://www.acmicpc.net/problem/1912)|[암호 만들기](https://www.acmicpc.net/problem/1759)|[[3차] n진수 게임](https://programmers.co.kr/learn/courses/30/lessons/17687)|[입국심사](https://programmers.co.kr/learn/courses/30/lessons/43238)|[가장 긴 증가하는 부분 수열](https://www.acmicpc.net/problem/11053)|[해킹](https://www.acmicpc.net/problem/10282)|
 |20주차|[LCS](https://www.acmicpc.net/problem/9251)|[운동](https://www.acmicpc.net/problem/1956)|[1차 캐시](https://programmers.co.kr/learn/courses/30/lessons/17680)|[데스노트](https://www.acmicpc.net/problem/2281)|||
 |21주차|[문자열 폭발](https://www.acmicpc.net/problem/9935)|[봄버맨](https://www.acmicpc.net/problem/16918)|[쿼드압축 후 개수 세기](https://programmers.co.kr/learn/courses/30/lessons/68936)|[Puyo Puyo](https://www.acmicpc.net/problem/11559)|||
-|22주차|||[순위 검색](https://programmers.co.kr/learn/courses/30/lessons/72412)||||
+|22주차|[마피아](https://www.acmicpc.net/problem/1079)||[순위 검색](https://programmers.co.kr/learn/courses/30/lessons/72412)||||
