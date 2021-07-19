@@ -100,4 +100,4 @@
 |20주차|[LCS](https://www.acmicpc.net/problem/9251)|[운동](https://www.acmicpc.net/problem/1956)|[1차 캐시](https://programmers.co.kr/learn/courses/30/lessons/17680)|[데스노트](https://www.acmicpc.net/problem/2281)|||
 |21주차|[문자열 폭발](https://www.acmicpc.net/problem/9935)|[봄버맨](https://www.acmicpc.net/problem/16918)|[쿼드압축 후 개수 세기](https://programmers.co.kr/learn/courses/30/lessons/68936)|[Puyo Puyo](https://www.acmicpc.net/problem/11559)|||
 |22주차|[등수매기기](https://www.acmicpc.net/problem/2012)|[괄호 회전하기](https://programmers.co.kr/learn/courses/30/lessons/76502)|[순위 검색](https://programmers.co.kr/learn/courses/30/lessons/72412)|[뮤탈리스크](https://www.acmicpc.net/problem/12869)|||
-|23주차|||[2개 이하로 다른 비트](https://programmers.co.kr/learn/courses/30/lessons/77885)||||
+|23주차|[좋은 수열](https://www.acmicpc.net/problem/2661)||[2개 이하로 다른 비트](https://programmers.co.kr/learn/courses/30/lessons/77885)||||
