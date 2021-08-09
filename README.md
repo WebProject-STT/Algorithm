@@ -22,7 +22,51 @@
 <br />
 
 ## ✅ How To
-> 📅 2021.02.15 ~
+> 📅 2021.02.15 ~ 2021.07.31
+1. 매주 3문제
+2. 매주 월요일 `21:00` 코드 리뷰
+3. **각 주차별 Directory Name** : 'Week{num}'
+    - num : 2자리 숫자로
+    - ex) Week01
+4. **Directory Name** : `문제번호`
+    - 백준 : 2573
+    - 프로그래머스 : 문제명
+5. **File Name** : `문제번호_이름`  
+    - 백준 : 2573_sb.java  
+    - 프로그래머스 : 문제명_sb.java
+6. **Commit Message** : `[Solve] ✍ 사이트명_문제번호.문제명`  
+  [Solve] ✍ baekjoon_2573.빙산  
+  [Solve] ✍ programmers_level2.기능개발
+
+<br />
+
+## 😎 Contributer
+
+<a href = "https://github.com/Kim-SuBin">
+  <img src="https://avatars.githubusercontent.com/u/46712693?s=400&u=fbd9c6ca52af3c7505d69cfaa47e829c443c980a&v=4" alt="subin" width="80" style="max-width:100%" />
+</a>
+<a href = "https://github.com/Juyoung4">
+  <img src="https://avatars.githubusercontent.com/u/47167335?s=400&u=e1c1bb39470956b96c192da2cff48b480780e51a&v=4" alt="juyoung" width="80" style="max-width:100%" />
+</a>
+<a href = "https://github.com/maywngml">
+  <img src="https://avatars.githubusercontent.com/u/50205928?s=400&v=4" alt="ju-hee" width="80" style="max-width:100%" />
+</a>
+<a href = "https://github.com/sejin-k">
+  <img src="https://avatars.githubusercontent.com/u/48510236?v=4" alt="sejin" width="80" style="max-width:100%" />
+</a>
+
+<br />
+
+## 👩‍💻 To Slove
+|Week|1|2|3|
+|:---:|:---:|:---:|:---:|
+|Week 1| | | |
+---
+
+<details><summary>Prev</summary>
+  
+## ✅ How To
+> 📅 2021.02.15 ~ 2021.07.31
 1. 매주 3문제
 2. 매주 월요일 `21:00` 코드 리뷰
 3. **File Name** : `문제번호_이름`  
@@ -61,23 +105,7 @@
 </details>
 
 <br />
-
-## 😎 Contributer
-
-<a href = "https://github.com/Kim-SuBin">
-  <img src="https://avatars.githubusercontent.com/u/46712693?s=400&u=fbd9c6ca52af3c7505d69cfaa47e829c443c980a&v=4" alt="subin" width="80" style="max-width:100%" />
-</a>
-<a href = "https://github.com/Juyoung4">
-  <img src="https://avatars.githubusercontent.com/u/47167335?s=400&u=e1c1bb39470956b96c192da2cff48b480780e51a&v=4" alt="juyoung" width="80" style="max-width:100%" />
-</a>
-<a href = "https://github.com/maywngml">
-  <img src="https://avatars.githubusercontent.com/u/50205928?s=400&v=4" alt="ju-hee" width="80" style="max-width:100%" />
-</a>
-<a href = "https://github.com/sejin-k">
-  <img src="https://avatars.githubusercontent.com/u/48510236?v=4" alt="sejin" width="80" style="max-width:100%" />
-</a>
-<br />
-
+  
 ## 👩‍💻 To Slove
 ||1|2|3|4|5|6|
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|
@@ -104,3 +132,5 @@
 |24주차|[큰 수 만들기](https://programmers.co.kr/learn/courses/30/lessons/42883)|[삼각 달팽이](https://programmers.co.kr/learn/courses/30/lessons/68645)|[BOJ 거리](https://www.acmicpc.net/problem/12026)||||
 |25주차|🏝 여름 휴가|
 |26주차|||||||
+  
+</details>
